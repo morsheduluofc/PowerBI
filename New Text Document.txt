@@ -1,0 +1,20 @@
+Add Git:
+$ git init
+$ git add .
+$ git status
+$ git commit -m 'Add all change'
+$ git remote set-url origin https://github.com/morsheduluofc/AnomaliesDetection.git 
+
+$ git config --global user.name 'morsheduluofc'
+$ git config --global user.email 'mdmorshedul.islam@ucalgary.ca'
+$ git config --list
+
+$ git push -u origin master
+
+Git Update:
+$ git status
+$ git checkout -b DataScience_and_MLmodel
+$ git add .
+$ git status
+$ git commit -m 'I did change in data analysis and ml model file'
+$ git push --set-upstream origin DataScience_and_MLmodel
